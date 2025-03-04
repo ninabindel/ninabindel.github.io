@@ -1,0 +1,164 @@
+	<!DOCTYPE html>
+	<html>
+	
+	<head>
+	<!-- Basic -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<!-- Site Metas -->
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="Nina" />
+	
+	<title>Presentations</title>
+	
+	<!-- bootstrap core css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<!-- fonts style -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+	
+	<!-- Custom styles for this template -->
+	<link href="css/style.css" rel="stylesheet" />
+	<!-- responsive style -->
+	<link href="css/responsive.css" rel="stylesheet" />	
+	
+	<link rel="stylesheet" href="css/css-circular-prog-bar.css">
+	
+	
+	</head>
+	
+	<body>
+	<div class="top_container">
+	<!-- header section strats -->
+	<header class="header_section">
+		<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg custom_nav-container ">
+			<a class="navbar-brand" href="index.html">
+				Presentations
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+				<ul class="navbar-nav  ">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="about.html"> About </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="pubs.html"> Publications </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="presentation.html"> Presentations </a>
+					</li>
+										
+				</ul>
+				</div>
+		</nav>
+		</div>
+	</header>
+	</div>
+	<!-- end header section -->
+	
+	<!-- welcome section -->
+	<section class="position-relative">
+	<div class="container ">
+			<div>
+					<h4>Fido 2 /Passkeys</h4>
+					<ul>
+						<li>10/2024:  All the Things PQ– End-to-End PQ-Secure FIDO2 Protocol; Authenticate Con, 	
+							Carlsbad, US (pre-recorded); [<a href="/data/AuthConBindel.pdf">slides</a>]</li>
+					<li>09/2024: All the Things PQ – End-to-End PQ-Secure FIDO2 Protocol; ICMC, San Jose, US</li>
+					<li>03/2024: All Things PQ: End-to-End PQ-Secure Fido2 Protocol; Open Source Cryptography Workshop; Toronto, Canada; [<a href="https://opensourcecryptowork.shop/2024/E2E%20PQC%20FIDO2.pdf">slides</a>][<a href="https://archive.org/details/oscw-2024-nina-bindel-pq-fido-2">video</a>]</li>
+		<!--<iframe width="560" height="315" src="https://archive.org/details/oscw-2024-nina-bindel-pq-fido-2" frameborder="0" allowfullscreen></iframe>
+		</iframe>-->
+		</ul>
+
+					<h4>Batch signing</h4>
+					<ul>
+						<li>07/2023: Batch me if you PQ-Sign; 7th NIST PQC Seminar; virtual <a href="https://csrc.nist.gov/csrc/media/Projects/post-quantum-cryptography/documents/pqc-seminars/presentations/7-batch-me-if-you-pq-sign-07212023.pdf">[slides]</a> <a href="https://www.kaltura.com/p/684682/embedPlaykitJs/uiconf_id/55674542?iframeembed=true&entry_id=1_p01k6qhk">[video]</a></li>
+						</ul>				
+
+					<h4>Vehicle-to-vehicle communication</h4>
+					<ul>
+						<li>04/2022: Drive (Quantum) Safe!  --Towards Post-Quantum Security for Vehicle-to- Vehicle Communications; Real World Crypto 2022; Amsterdam, the Netherlands <a href="https://iacr.org/submit/files/slides/2022/rwc/rwc2022/28/slides.pdf">[slides]</a></li>
+					<li>09/2021:  Drive (Quantum) Safe!  --Towards Post-Quantum Security for Vehicle-to- Vehicle Communications; CAST e.V. Workshop "Quantentechnologie und Quantencomputer-resistente Sicherheit" 2021 (virtual)</li>
+					<li>08/2021: The Need for Being Explicit When Communicating; Conference, Cfail 2021 (virtual); <a href="data/ImplicitCertsNBindelCfail.pdf">[slides]</a> <a href="https://youtu.be/2ay3a8cCNUk">[video]</a></li>
+					<li>06/2021: Suitability of 3rd Round Signature Candidates for Vehicle-to-Vehicle Communication; Conference, 3rd PQC Standardization Conference (virtual); <a href="data/PQV2VBindel.pdf">[slides]</a> <a href="https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/684682/uiconf_id/31013851/entry_id/1_tprn0c0x/embed/dynamic#t=41:00">[video]</a></li>
+</ul>
+
+					<h4>IND-CCA security of KEMs and decryption failures</h4>
+<ul>					
+					<li>09/2020: Decryption Failure is More Likely After Success; Conference, PQCrypto 2020 (virtual); <a href="data/qTESLA_ACNS.pdf">[slides]</a> <a href="https://www.youtube.com/watch?v=MydOujbq8r0">[video]</a></li>
+					<li>06/2020: Tighter proofs of CCA security in the quantum random oracle model; Seminar, University of Ottawa, Ottawa, Canada  (virtual); [<a href="data/Tighter_INDCCA_QROM_Proofs_public.pdf">slides</a>]</li>
+					<li>05/2020: Lattice-based cryptography--an example for quantum-secure cryptography; Seminar, University of Waterloo, Waterloo, Canada (virtual); [<a href="data/URA-Seminar_public.pdf">slides</a>]</li>
+					<li>01/2020: On the IND-CCA security of post-quantum  public-key encryption schemes; Seminar, Yale University, New Haven, USA; [<a href="data/Post-quantum-crypto-and-decryption-failure_public.pdf">slides</a>]</li>
+					<li>12/2019: Tighter proofs of CCA security in the quantum random oracle model; Conference,  IMACC 2019, Oxford, UK; <a href="data/IMACC_Tighter_INDCCA_QROM_Proofs_Bindel_wo_animation.pdf">[slides]</a></li>
+					<li>12/2019: Tighter proofs of CCA security in the quantum random oracle model; Conference, TCC 2019, Nuremberg, Germany; <a href="data/TCC_Tighter_INDCCA_QROM_Proofs_Bindel.pdf">[slides]</a></li>
+					</ul>
+					
+					<h4> Composite (hybrid) schemes </h4>
+<ul>					
+					<li>01/2019: Hybrid Cryptography for a Post-Quantum Transition; Seminar, Microsoft Research, Redmond, USA</li>
+					<li>11/2017: Transitioning to a Quantum-Resistant Public Key Infrastructure; Workshop, Workshop on Cryptography for the Internet of Things and Cloud, Bochum, Germany; <a href="data/WS_IoT_Clouds_Transition_to_a_quantum_resistant_PKI_public.pdf">[slides]</a></li>
+					<li>06/2017: Transitioning to a Quantum-Resistant Public Key Infrastructure; Conference, PQCrypto 2017, Utrecht, The Netherlands; <a href="data/Bindel_Transition_to_a_quantum_resistant_PKI.pdf">[slides]</a></li>
+					</ul>
+					
+					<h4>Lattices and TESLA family</h4>
+<ul>					
+					<li>10/2020: The lattice-based signature scheme qTESLA; Conference ACNS 2020, (virtual); <a href="data/PQrypto_decryption-failure.pdf">[slides]</a> <a href="https://youtu.be/VFWJawt8pcA">[video]</a></li>
+					<li>05/2017: Ein deutsches digitales Signaturverfahren auf dem Weg zum internationalen kryptographischen Standard; Conference, 15. IT-Sicherheitskongress, Bonn, Germany; <a href="data/TESLA_IT-Sicherheitskongress.pdf">[slides]</a></li>
+					<li>06/2016: Towards Practical Lattice-Based Signature Schemes; Seminar, Institute for Quantum Computing, University of Waterloo, Canada</li>
+					<li>11/2015: Towards Practical and Provably Secure Lattice-Based Signatures; Workshop, CrossFyre 2015, Nijmegen, The Netherlands</li>
+					<li>04/2016: An Efficient Lattice-Based Signature Scheme with Provably Secure Instantiation; Conference, AfricaCrypt 2016, Fés, Morocco; <a href="data/An_Efficients_Lattice-Based_Signature_Scheme_with_Provably_Secure_Instantiation.pdf">[slides]</a></li>
+					<li>06/2015: TESLA: Tightly-Secure Efficient Signature Scheme from Standard Lattices; Workshop, The Mathematics of Modern Cryptography, Berkeley, USA</li>
+					</ul>
+					
+					<h4>Fault and side channel attacks</h4>
+<ul>					
+					<li>12/2017: If and how implementation attacks shape the design of lattice-based signature schemes; Conference, 16th IMA International conference on cryptography and coding; Oxford, UK; <a href="data/if_and_how_implementation_attacks_shape_the_design_of_lattice-based_signatures_public.pdf">[slides]</a></li>
+					<li>10/2017: Hampering fault attacks against lattice-based signature schemes— countermeasures and their efficiency; Conference, CODES/ISSS 2017 Companion, Seoul, South Korea; <a href="data/countermeasures_lattice_based_signatures_fault_attacks_bindel.pdf">[slides]</a></li>
+					<li>08/2016: Lattice-Based Signature Schemes and their Sensitivity to Fault Attacks; Workshop, FDTC 2016, Santa Barbara, USA; <a href="data/LBSS_and_their_Sensitivity_to_FA.pdf">[slides]</a></li>
+					<li>07/2021: The Promises and Challenges of Quantum; Panel discussion and podcast, Defence Deconstructed Podcast Series, CGAI (virtual); <a href="https://soundcloud.com/user-609485369/defence-deconstructed-the-promises-and-challenges-of-quantum?utm_source=Email&amp;utm_campaign=social_sharing&amp;utm_medium=widgetutm_content=https%3A%2F%2Fsoundcloud.com%2Fuser-609485369%2Fdefence-deconstructed-the-promises-and-challenges-of-quantum">[podcast]</a></li>
+					<li>07/2020: Governing the Future(s) of Emerging Technologies in Canada; NAADSN Ideas Series, (virtual);<a href="data/20-August-Quick-Impact_Csenkey-and-Bindel.pdf"> [summary]</a> <a href="https://youtu.be/OXS_0moZXJY">[video]</a></li>
+					</ul>
+
+					<h4>Others</h4>
+					<ul>
+					<li>11/2023: PQ Transition of Real-World Protocols; Women in Cryptography Seminar (virtual) <a href="https://youtu.be/OXS_0moZXJY">[video]</a> </li>
+					<li>12/2021: Post-Quantum Cryptography; Ada Lovelace Festival, lightning talk and panel discussion (virtual) </li>
+					<li>12/2021: Post-quantum cryptography: faster, smaller, harder?; Mathematics of Digital  Communication special session of the 2021 CMS Winter Meeting (virtual)</li>
+					<li>11/2020:  A status update on NIST's post-quantum standardization effort;  Finite Fields Seminar, Carlton University Ottawa, Ottawa, Canada  (virtual);  <a href="https://people.math.carleton.ca/~finitefields/Files/NB_slides.pdf">[slides</a><a href="https://people.math.carleton.ca/~finitefields/Videos/NB_video.html">]</a> <a href="https://people.math.carleton.ca/~finitefields/Videos/NB_video.html">[video]</a></li>
+					<li>08/2020: A status update on NIST's post-quantum standardization effort; Seminar, University of Ottawa, Ottawa, Canada  (virtual); <a href="data/UpdateNIST_public.pdf">[slides]</a></li>
+					</ul>
+		</div>
+	</div>
+	</section>
+	
+	<!-- end welcome section -->
+	
+	
+	<!-- footer section -->
+	<section class="container-fluid footer_section">
+	<p>
+		Unless indicted otherwise, all text and images by Nina Bindel. <br>
+		Pages generated using <a href="https://html.design/">Free Html Templates</a> under CC 3.0.
+	</p>
+	</section>
+	<!-- footer section -->
+	
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- progreesbar script -->
+	
+	</script>
+	</body>
+	
+	</html>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="Nina" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Nina Bindel</title>
+
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/modal.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+
+
+
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+
+  <!-- for hover effect of grid-->
+  <style>
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+    .item {
+      position: relative;
+    }
+
+    .item img {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .4s ease;
+      backface-visibility: hidden;
+    }
+
+    .item .middle {
+      transition: .4s ease;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-align: left;
+      color: black;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+
+    .item:hover img {
+      opacity: 0.3;
+    }
+
+    .item:hover .middle {
+      opacity: 1;
+    }
+
+    #my-carousel-control {
+      display: flex;
+      gap: 5px;
+      padding-left: 45px;
+    }
+    #my-carousel-control a {
+      position: inherit;
+    }
+    @media (max-width:575px) {
+      #my-carousel-control {
+        padding-left: inherit;
+        justify-content: center;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="top_container">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            Dr. Nina Bindel
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="about.html"> About </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pubs.html"> Publications </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="presentation.html"> Presentations </a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </header>
+    <section class="hero_section position-relative">
+      <div class="hero_section-container ">
+
+        <div class="hero_img-box">
+          <img src="images/headerpic.png" alt="">
+        </div>
+        <div class="hero_detail-box">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="hero_detail-container">
+                  <h1>
+                    I’m An Expert in <br>
+                    Post-Quantum <br>
+                    Cryptography
+                  </h1>
+                  <p>
+                    10+ years of research experience both in academia and industry
+                  </p>
+
+                  <div class="d-flex justify-content-center justify-content-sm-start">
+                    <a href="about.html" class="call_to-btn ">
+                      <span>
+                        Read More
+                      </span>
+                      <img src="images/right-arrow.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="hero_detail-container">
+                  <h1>
+                    I’m Trying Out <br>
+                    Some Other <br>
+                    Things
+                  </h1>
+                  <p>
+                    Started dabbling into artsy stuff, so far mostly acrylic painting
+                  </p>
+
+                  <div class="d-flex justify-content-center justify-content-sm-start">
+                    <a href="#playground" class="call_to-btn ">
+                      <span>
+                        Read More
+                      </span>
+                      <img src="images/right-arrow.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="my-carousel-control">
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- end header section -->
+
+
+  <!-- about section -->
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="about_detail-box">
+        <h3 class="text-uppercase">
+          About Me
+        </h3>
+        <p>
+          My research addresses the construction and cryptanalysis of quantum-secure
+          schemes and provably guaranteeing their security in the appropriate security
+          models. Moreover, I am interested in how to transition cryptographic
+          protocols and applications to be quantum-secure. <br> <br>
+
+          I am currently a Staff research scientist and deputy R&D lead the Cyber Security group
+          of SandboxAQ, CA, USA. I am located in Germany.
+        </p>
+      </div>
+      <div class="d-flex justify-content-center justify-content-sm-start" style="gap:10px;">
+        <a href="https://ca.linkedin.com/in/nbindel">
+          <img src="images/linkedin.png" width="40" alt="">
+        </a>
+        <a href="about.html" class="sub_call_to-btn ">
+          <span>
+            Read more
+          </span>
+          <img src="images/right-arrow.png" alt="">
+        </a>
+      </div>
+  </section>
+  <!-- end about section -->
+
+  <!-- pubs section -->
+  <section class="layout_padding">
+    <div class="container" style="text-align: right">
+      <h3 class="text-uppercase">
+        Publications
+      </h3>
+      <p>
+        A list of my published papers can be found on GoogleScholor or dblp. In addition,
+        they can be found on the next page together with blog posts, book chapters and technical
+        reports (such as on the digital signature scheme qTESLA).
+      </p>
+
+      <div class="d-flex justify-content-center justify-content-sm-end">
+        <a href="https://dblp.org/pid/167/3021">
+          <img src="images/dblp.png" width="40" alt="">
+        </a>
+        <a href="https://scholar.google.de/citations?user=-unGLWcAAAAJ&hl=de&oi=ao">
+          <img src="images/google_scholar.png" width="40" alt="">
+        </a>
+        <a href="pubs.html" class="sub_call_to-btn ">
+          <span>
+            Publications
+          </span>
+          <img src="images/right-arrow.png" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- end pubs section -->
+
+  <!-- presentation section -->
+  <section class="layout_padding">
+    <div class="container">
+      <h3 class="text-uppercase"> Presentations </h3>
+      <p>
+        I am an experienced speaker for technical and broader audiences. A list of selected
+        presentations, including slides and videos can be found on the next page.
+      </p>
+
+      <div class="d-flex justify-content-center justify-content-sm-start" style="gap:10px;">
+        <a href="https://www.youtube.com/channel/UCVvOW7YYs9v8HFxplHrCz3A/featured?view_as=subscriber">
+          <img src="images/youtube.png" width="40" alt="">
+        </a>
+        <a href="presentation.html" class="sub_call_to-btn">
+          <span>
+            Presentations and videos
+          </span>
+          <img src="images/right-arrow.png" alt="">
+        </a>
+      </div>
+  </section>
+
+  <!-- end presentation section -->
+
+  <!-- playground section -->
+  <section id="playground" class="practice_section layout_padding">
+    <div class="container">
+      <div class="d-flex flex-column align-items-left">
+        <div style="text-align: right;">
+          <h3 class="text-uppercase">
+            Playground
+          </h3>
+          <p>
+            The displayed works are original, made using a mix of acrylic and recycled paints.
+            I am painting on (recycled) canvas but also other materials. As such, imperfections are part of
+            the resulting pieces. Some pieces are available for purchase; if interested contact me at bindel dot nina at gmail dot
+            com for pricing.
+          </p>
+        </div>
+        <div class="container_grid">
+          <div id="horse" class="item" onclick="openModal(event);">
+            <img src="images/horse.png" alt="">
+            <div class="middle">
+              rennpferd im stall <br> (engl. racing horse in <br> the box), 2024 <br> available for purchase
+            </div>
+          </div>
+          <div id="cactus" class="item" onclick="openModal(event);">
+            <img src="images/cactus.png" alt="">
+            <div class="middle">
+              los cardones, variation I 2024
+            </div>
+          </div>
+          <!-- <div id="boobsI" class="item">
+            <img src="images/boobsI.jpg" alt="">
+            <div class="middle">
+              boobs I (for anna), 2024
+            </div>
+          </div> -->
+          <div id="boobsII" class="item" onclick="openModal(event);">
+            <img src="images/boobsII.JPG" alt="">
+            <div class="middle">
+              scars as an oppurtunity to grow (boobs II), 2024 <br> inspired by the
+              following poem by rupi kaur <br> <br>
+              i reduced my body to aesthetics <br> forgot the work it did to keep me alive <br>
+              with every beat and breath <br> declared it a grand failure for not looking like
+              theirs <br>
+              searched everywhere for a miracle <br> foolish enough to not realise
+              <br> i was already living in one” <br> <br>
+              available for purchase
+            </div>
+          </div>
+          <div id="house" class="item" onclick="openModal(event);">
+            <img src="images/building.JPG" alt="">
+            <div class="middle">
+              blazing summer sun <br> on a terrace, 2023 <br> available for purchase
+            </div>
+          </div>
+          <div id="bluecolor" class="item" onclick="openModal(event);">
+            <img src="images/bluecolor.png" alt="">
+            <div class="middle">
+              self-protection, 2025 <br> available for purchase
+            </div>
+          </div>
+          <div id="wordsworth" class="item" onclick="openModal(event);">
+            <img src="images/wordworth.png" alt="">
+            <div class="middle">
+              worthy words, 2024 <br> available for purchase
+            </div>
+          </div>
+          <div id="meer" class="item" onclick="openModal(event);">
+            <img src="images/meer.png" alt="">
+            <div class="middle">
+              meer III, 2025 <br>
+              inspired by song 'ozean' by annenmaykantereit <br> <br>
+              ein meer zwischen mir und meiner vergangenheit <br>
+              ein meer zwischen mir und all dem was war
+            </div>
+          </div>
+          <div id="bleibbescheiden" class="item" onclick="openModal(event);">
+            <img src="images/bleibbescheiden.png" alt="">
+            <div class="middle">
+              bleib bescheiden (meer II, für tina), 2025 <br>
+              inspired by song 'chateau lafite' by bonaparte
+            </div>
+          </div>
+        </div>
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      Unless indicted otherwise, all text and images by Nina Bindel. <br>
+      Pages generated using <a href="https://html.design/">Free Html Templates</a> under CC 3.0.
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <!-- modal -->
+  <div id="my-modal" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modal-text">Some text in the Modal..</p>
+    </div>
+
+  </div>
+  <!-- modal -->
+
+  <script type="text/javascript">
+    // Get the modal
+    let modal = document.getElementById("my-modal");
+
+    // Get the <span> element that closes the modal
+    let span = document.getElementsByClassName("close")[0];
+    let text = document.getElementById("modal-text");
+
+    function isMobile() {
+      const userAgent = navigator.userAgent;
+      if (/Mobi|Android/i.test(userAgent)) {
+        // return "Mobile";
+        return true;
+      } else if (/Tablet|iPad/i.test(userAgent)) {
+        // return "Tablet";
+        return true;
+      } else {
+        // return "Desktop";
+        return false;
+      }
+    }
+
+    // When the user clicks the button, open the modal 
+    function openModal(event) {
+      // window.EVT = event;
+      // console.log(event);
+      if (!isMobile()) {
+        return;
+      }
+      modal.style.display = "block";
+      text.innerHTML = event.target.innerHTML;
+    };
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- progreesbar script -->
+
+  </script>
+</body>
+
+</html>
