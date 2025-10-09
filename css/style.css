@@ -338,6 +338,10 @@ a:focus {
   max-width: 430px;
 }
 
+#timeline img {
+  max-width: 750px;
+}
+
 #meer img {
   max-width: 600px;
 }
@@ -397,6 +401,11 @@ a:focus {
 
   #bleibbescheiden {
     grid-row: 3 / 6;
+    grid-column: 1 / 5;
+  }
+
+  #timeline {
+    grid-row: 4 / 1;
     grid-column: 1 / 5;
   }
 
@@ -573,5 +582,6 @@ a:focus {
 .footer_section a {
   color: #000;
 }
+
 
 /* end footer section*/
